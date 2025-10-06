@@ -20,7 +20,7 @@ Given the product ID returned by the product search, we have a straightforward c
 
 ## Forecasted Demand
 
-This value is fixed an mocked. In the future we would use Kumo RFM to generate this value from the sales data we queried previously.
+This value is fixed and mocked. In the future we would use Kumo RFM to generate this value from the sales data we queried previously.
 
 ## Customer Segmentation
 
