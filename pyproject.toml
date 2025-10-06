@@ -1,0 +1,30 @@
+[project]
+name = "kumo-demo"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12,<3.13"
+dependencies = [
+    "fastapi>=0.117.1",
+    "kumoai>=2.4.1",
+    "maxim-py>=3.10.9",
+    "mysql-connector-python>=9.4.0",
+    "openai-agents>=0.3.2",
+    "pandas>=2.3.2",
+    "polars>=1.33.1",
+    "pyarrow>=21.0.0",
+    "pydantic>=2.11.9",
+    "python-dotenv>=1.1.1",
+    "quart>=0.20.0",
+    "quart-rate-limiter>=0.12.1",
+    "quart-schema>=0.22.0",
+    "sql-metadata>=2.17.0",
+    "sqlalchemy>=2.0.43",
+    "sqlalchemy-libsql>=0.2.0",
+    "uvicorn>=0.37.0",
+]
+
+[dependency-groups]
+dev = [
+    "tqdm>=4.67.1",
+]
