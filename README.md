@@ -37,6 +37,12 @@ In parallel to our product search, we run another agent t
 
 ## How to Run the Project
 
+### Running the frontend
+
+[Install `pnpm`](https://pnpm.io/installation) and run `pnpm dev`.
+
+In another tab setup, a python venv, ideally with by [installing `uv`](https://docs.astral.sh/uv/getting-started/installation/) and creating an environment with the `pyproject.yml` file. To run the backend, run `uvicorn main:app --host 0.0.0.0 --port 3000`
+
 ## Future Work
 
 - Add unit and integration tests
