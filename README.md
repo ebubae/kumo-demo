@@ -24,7 +24,7 @@ This value is fixed and mocked. In the future we would use Kumo RFM to generate 
 
 ## Customer Segmentation
 
-In parallel to our product search, we run another agent t
+In parallel to our product search, we run another agent that performs customer segmentation based on the user's query. In the future this agent can be based on the selected product to be more relevant. This agent provides a section that provides the reasoning for the segmentation and also a relevant marketing strategy.
 
 ## Stack
 
