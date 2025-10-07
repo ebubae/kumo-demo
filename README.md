@@ -41,6 +41,8 @@ In parallel to our product search, we run another agent that performs customer s
 
 [Install `pnpm`](https://pnpm.io/installation) and run `pnpm dev`.
 
+### Running the backend
+
 In another tab setup, a python venv, ideally with by [installing `uv`](https://docs.astral.sh/uv/getting-started/installation/) and creating an environment with the `pyproject.yml` file. To run the backend, run `uvicorn main:app --host 0.0.0.0 --port 3000`
 
 ## Future Work
